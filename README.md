@@ -6,6 +6,37 @@ The purpose of this project is to create a tidy data set extracted from the
 
 The new data set only contains the mean and standard deviation of the measurements from the original dataset.
 
+## Repository Contents
+
+<table>
+<tr><th>File Name</th><th>Description</th></tr>
+<tr>
+  <td valign=top>README.md</td>
+  <td>Documentation explaining the project and how to use files contained in the repository.
+  </td>
+</tr>
+<tr>
+  <td valign=top>Codebook.md</td>
+  <td>Documentation regarding the original data set and the creation of the tidy data set. 
+  </td>
+</tr>
+<tr>
+  <td valign=top>run_analysis.R</td>
+  <td>R script to create the tidy data set from the original data.
+  </td>
+</tr>
+<tr>
+  <td valign=top>.gitignore</td>
+  <td>Gitignore file, instructing git to not add the original data set and generated html files to the repository. 
+  </td>
+</tr>
+<tr>
+  <td valign=top>HARUS_Mean_Std_Only.txt</td>
+  <td>Created tidy data set file.
+  </td>
+</tr>
+</table>
+
 ### prerequisites
 1. R version 3.2.2 is installed
 2. dplyr library (in R execute: install.packages("dplyr"))

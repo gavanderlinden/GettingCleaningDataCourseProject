@@ -27,7 +27,10 @@ print(dim(data_set))
 # load feature names
 feature_names <- read.table("features.txt", stringsAsFactors = FALSE)[["V2"]]
 
-# set feature names on data_set
+# Set descriptive feature names on data_set
+# I considered the original names to be descriptive
+# Also I think it makes if easy to trace
+# the variables back to the original set
 colnames(data_set) <- c("subject", feature_names, "activity")
 
 # extract only mean and standard deviation variables
