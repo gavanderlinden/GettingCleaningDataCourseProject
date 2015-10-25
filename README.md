@@ -39,7 +39,9 @@ The new data set only contains the mean and standard deviation of the measuremen
 
 ### prerequisites
 1. R version 3.2.2 is installed
-2. dplyr library (in R execute: install.packages("dplyr"))
+2. plyr library (in R execute: install.packages("plyr"))
+3. dplyr library (in R execute: install.packages("dplyr"))
+4. The original data set from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Unzip folder and put the "UCI HAR Dataset" folder in the same location as the run_analysis.R script.
 
 ### Instructions for creating the tidy data set
 1. Step 1 - download the raw data from the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip

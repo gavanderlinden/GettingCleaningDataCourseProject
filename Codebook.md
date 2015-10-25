@@ -37,7 +37,7 @@ For each record in the dataset it is provided:
 3. Combine the 3 test files with cbind in the same way as the training files
 4. Combine both combined files with rbind
 5. Read features.txt as a table
-6. Set first column to "subject" and last column to "activity" and all other columns to to the names loaded from features.txt
+6. Set descriptive names for the columns by setting first column to "subject" and last column to "activity" and all other columns to to the names loaded from features.txt.
 7. Extract all columns where mean() or std() is in the column name plus the subject and activity columns.
 8. Read activity_labels.txt as a table
 9. Replace all numeric indicators in the activity column with the corresponding activity lables
